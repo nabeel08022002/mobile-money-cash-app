@@ -1,0 +1,231 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 400px;
+  margin: 10px auto;
+
+  /* border: 4px solid black; */
+}
+
+/* simple css section */
+.background-color {
+  border-radius: 12px;
+  background-color: #f7f1e3;
+}
+.star {
+  margin-left: 20px;
+}
+.star-setting {
+  height: 16px;
+  width: 16px;
+  /* margin-left: 40px; */
+  border-radius: 40px;
+  margin: -5px;
+  background-color: #fff;
+  fill: #ff4e45;
+}
+.star-box {
+  margin-left: 40px;
+  /* padding-right: 10px; */
+  margin-top: -14px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.setting {
+  height: 24px;
+  width: 24px;
+  stroke: #22b8cf;
+  margin-top: 12px;
+  margin-left: 220px;
+}
+.star-box-color {
+  border-radius: 6px;
+  padding-top: 0px;
+  padding-bottom: 6px;
+  margin-left: 10px;
+  border: 2px solid black;
+  background-color: #ff4e45;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* row 2 */
+.over-view {
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 28px;
+  padding-top: 8px;
+  /* margin-bottom: 20px; */
+}
+.account-details {
+  margin-top: 10px;
+}
+.account {
+  font-size: 18px;
+  font-weight: 850;
+  font-family: sans-serif;
+  margin-left: 30px;
+}
+.view-all {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #22b8cf;
+  font-weight: bold;
+}
+/* row 3 */
+.checking-logo {
+  height: 20px;
+  width: 40px;
+  color: #fff;
+  background-color: #6cc87b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  border-radius: 8px;
+}
+.checkings {
+  margin-top: 14px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+/* row 4 */
+.add-account {
+  margin-left: 240px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-right: 12px;
+  border-radius: 10px;
+  /* border: 1px solid; */
+  background-color: #f7f1e3;
+  color: #22b8cf;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.border-redius {
+  background-color: #fff;
+  margin: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+/* 2 box */
+.smart-goal {
+  margin-top: 10px;
+}
+.goal-one {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #22b8cf;
+  margin-bottom: 30px;
+}
+.in-progress {
+  color: #adb5bd;
+}
+img {
+  height: 130px;
+  width: 180px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+/* box 3*/
+.limit {
+  margin-left: 30px;
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: 500px;
+  color: #adb5bd;
+  margin-bottom: 20px;
+}
+.set-up {
+  margin-left: 30px;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  color: #22b8cf;
+  margin-bottom: 40px;
+}
+/* last row */
+.bottom-row {
+  height: 60px;
+  width: 400px;
+  padding-top: 5px;
+  margin-top: -50px;
+  border-top: 2px solid #ecf5ff;
+  /* margin-left: 50px; */
+  background-color: #f1f3f5;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.overview-icon {
+  color: #22b8cf;
+}
+.overview {
+  margin-left: -12px;
+  font-size: 12px;
+  color: #22b8cf;
+}
+.text-center {
+  margin-left: -4px;
+  font-size: 12px;
+  color: #adb5bd;
+}
+.text-aline {
+  margin-left: -16px;
+  font-size: 12px;
+  color: #adb5bd;
+}
+.icon-color {
+  color: #8fa0b1;
+}
+.add-person {
+  height: 32px;
+  width: 32px;
+  padding: 5px 5px;
+  background-color: #0b6879;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50px;
+  display: inline-block;
+  position: absolute;
+  top: 510px;
+  left: 360px;
+}
+
+/* css grid section */
+.row-grid {
+  display: grid;
+  grid-template-columns: 140px 50px;
+}
+.account-details {
+  display: grid;
+  grid-template-columns: 1fr 90px;
+}
+.checking-box {
+  display: grid;
+  grid-template-columns: 80px 40px;
+}
+.add-account {
+  display: grid;
+  grid-template-columns: 190px;
+}
+.img-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.bottom-row {
+  display: grid;
+  grid-template-columns: 30px 30px 30px 30px;
+  column-gap: 60px;
+  justify-content: center;
+}
